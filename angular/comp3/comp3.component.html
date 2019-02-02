@@ -1,0 +1,14 @@
+<div style="margin-left:500px;">
+  <h1>Registration</h1>
+  <form #f="ngForm" (submit)="registration(f)">
+    <td>Name:</td>
+    <td><input type="text" name="name" id="name" [(ngModel)]="student.name" placeholder="Enter Name"></td></tr>
+<tr><td>Username</td>
+<td><input type="text" name="uname" id="uname" [(ngModel)]="student.uname" placeholder="Enter Username"> </td></tr>
+<tr><td>Password</td>
+<td><input type="text" name="password" id="password" [(ngModel)]="student.password" placeholder="Enter Password"></td></tr>
+  <tr><td><input type="submit" name="submit" value="Register"></td></tr>
+
+  </table>
+</form>
+</div>
